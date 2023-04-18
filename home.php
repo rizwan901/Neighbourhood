@@ -6,6 +6,9 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="main.css" />
+    <?php
+    include('auth.php');
+    ?>
     <head>
     <h1 style="font-size:50px;text-align:center;color:#000000">Neighbourhood Guide</h1>
     </head>
@@ -99,7 +102,7 @@
 
             <div class="4u 12u$(mobile)">
                 <article class="item">
-                    <a ><img class="image fit" src="images/wishlist.png" alt="" width="150" height="150"></a>
+                    <a href="wishList.Php"><img class="image fit" src="images/wishlist.png" alt="" width="150" height="150"></a>
                     <header>
                         <a>Wish List</a>
                     </header>

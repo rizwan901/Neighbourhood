@@ -4,6 +4,13 @@
 <title>Plumbers</title>
 <link rel="stylesheet" href="style.css"/>
 <header>
+<div class="container">
+<nav>
+        <ul>
+            <li><a href="home.php">Home</a>&nbsp;&nbsp;</li>
+            <li><a href="logout.php">Logout</a>&nbsp;&nbsp;</li>
+        </ul>
+</nav>
 </div>
 </header>
 </head>

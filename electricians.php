@@ -17,6 +17,7 @@
 <body>
 <div class="form">
 <?php
+include('auth.php');
 if(isset($_POST['city'])){
 require_once('vendor/autoload.php');
 $apiKey = "fsq3mPNFmiLd+01xNIAy4XJJ5D1HTGjvE4cJ90k6JkprScY=";
@@ -37,7 +38,6 @@ echo "<table border='1'>
 <tr>
 <th>Name</th>
 <th>Address</th>
-<th>Add</th>
 </tr>";
 for($i=0;$i<10;$i++){
 echo "<tr>";

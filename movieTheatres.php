@@ -17,6 +17,7 @@
 <body>
 <div class="form">
 <?php
+include('auth.php');
 if(isset($_POST['city'])){
 require_once('vendor/autoload.php');
 $apiKey = "fsq3mPNFmiLd+01xNIAy4XJJ5D1HTGjvE4cJ90k6JkprScY=";
